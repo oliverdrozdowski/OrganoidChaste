@@ -3,8 +3,8 @@
 This chaste user project allows the modelling of three-dimensional spherical organoids. 
 It implements a three-dimensional vertex model in Chaste, where each cell is modelled as a polyhedron with one apical, one basal and multiple lateral faces.
 
-To install it, you first need to install [Chaste](https://chaste.cs.ox.ac.uk/trac) and then may run this as a user project.
-See the [User Projects](https://chaste.cs.ox.ac.uk/trac/wiki/ChasteGuides/UserProjects) guide page on the Chaste wiki for more information.
+To install it, you first need to install [Chaste](hhttps://chaste.github.io/docs) and then may run this as a user project.
+See the [User Projects](https://chaste.github.io/docs/user-guides/user-projects/) guide page on the Chaste wiki for more information.
 
 The project is compatible with Chaste release 2019.1 and 2021.1.
 
