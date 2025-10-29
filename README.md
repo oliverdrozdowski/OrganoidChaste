@@ -56,7 +56,7 @@ We use [Chaste Docker](https://github.com/Chaste/chaste-docker) to install Chast
 
 8. We may leave the Docker container via `exit` and may restart it via `docker start -i chaste`
 
-For more infos on how to create/run projects in Chaste consult the official site with [tutorials and documentations](https://chaste.cs.ox.ac.uk/trac/wiki).
+For more infos on how to create/run projects in Chaste consult the official site with [tutorials and documentations](https://chaste.github.io/docs).
 
 ## Creating the Doxygen API
 To get the API of **OrganoidChaste**, check the [tutorial](https://chaste.github.io/docs/dev-guides/cmake-build-guide/#other-useful-targets) in the Chaste wiki.
