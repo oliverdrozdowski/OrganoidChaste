@@ -1,0 +1,11 @@
+# Configuration details for TestIcosahedralSphereParsed
+# With this the script can be run on clusters because the parameters
+# are saved in this file
+# The source needs to be built only once and can then be run for
+# different config files
+
+Caspar_Klug_H = 12
+Caspar_Klug_K = 0
+alpha = 1.0
+beta = 1.0
+Filename = Test3DSphere_icosahedral_CK_12_0_Gamma_1.0_init_sphere
