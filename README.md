@@ -107,6 +107,6 @@ INPUT                  =    heart/src \
 and use the usual `ccmake` and then `make doxygen` to create the Chaste doxygen API, including **OrganoidChaste**.
 
 ## Example application: spherical shells
-To create spherical shells, which can be imported into surface evolver for the bubbly vertex model analysis, the application *RandomizeHomogeneousSphere* can be used.
+To create spherical shells, which can be imported into surface evolver for the bubbly vertex model analysis, the application *MinimizeHomogeneousSphere* can be used.
 
 For this change to the `lib` folder and run `make MinimizeHomogeneousSphere`. After compilation you may run `projects/OrganoidChaste/apps/MinimizeHomogeneousSphere -h` to recieve help on the possible command line arguments that configure the simulation.
