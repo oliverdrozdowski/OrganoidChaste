@@ -15,7 +15,7 @@ This code has been developed for the simulation of organoids and has been used b
 
 and in the form of the bubbly vertex model in
 
-*Drozdowski, Kocamese, Boonekamp, Boutros, and Schwarz, arXiv:2411.07141 (2024); DOI: 10.48550/arXiv.2411.07141*
+*Drozdowski, Kocameşe, Boonekamp, Boutros, and Schwarz, arXiv:2411.07141 (2024); DOI: 10.48550/arXiv.2411.07141*
 
 If you use this code please cite the second manuscript (preprint), especially if you use the export to SurfaceEvolver for the bubbly vertex model. 
 
@@ -47,7 +47,7 @@ We use [Chaste Docker](https://github.com/Chaste/chaste-docker) to install Chast
   ```
   where we use the password `chaste` to answer the prompt
 
-6. We now move to the `lib` folder and configure CMake to run Chaste with **OrganoidChaste**. In the folder run `ccmake .` press `c`, then `e` again and finally generate the CMake structure by pressing `g`.
+6. We now move to the `lib` folder and configure CMake to run Chaste with **OrganoidChaste**. In the folder run `ccmake .` press `c`, then `e`, then `c` and then `e` again and finally generate the CMake structure by pressing `g`.
 
 7. **OrganoidChaste** should now be set up correctly. You may check this by running a simple Test file from the **OrganoidChaste** test suite, e.g.
   ```make TestMonolayerVertexElement```
@@ -61,7 +61,7 @@ For more infos on how to create/run projects in Chaste consult the official site
 ## Creating the Doxygen API
 To get the API of **OrganoidChaste**, check the [tutorial](https://chaste.github.io/docs/dev-guides/cmake-build-guide/#other-useful-targets) in the Chaste wiki.
 
-Before, however, you need to teach the original Chaste doxygen configuration to also include **OrganoidChaste**. Assuming **OrganoidChaste** is included in the projects folder (like in the above tutorial), we need to modify the `Doxyfile`in `chaste/src` to also look for **OrganoidChaste**.
+Before, however, you need to teach the original Chaste doxygen configuration to also include **OrganoidChaste**. Assuming **OrganoidChaste** is included in the projects folder (like in the above tutorial), we need to modify the `Doxyfile` in `chaste/src` to also look for **OrganoidChaste**.
 
 In the `Doxyfile` replace
 
