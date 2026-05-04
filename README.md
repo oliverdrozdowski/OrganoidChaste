@@ -15,7 +15,7 @@ This code has been developed for the simulation of organoids and has been used b
 
 and in the form of the bubbly vertex model in
 
-*Drozdowski, Kocameşe, Boonekamp, Boutros, and Schwarz, Phys. Rev. X 16, 021023 (2026); DOI: 10.1103/x82g-cq7n*
+*Drozdowski, Kocameşe-Tamgac𝚤, Boonekamp, Boutros, and Schwarz, Phys. Rev. X 16, 021023 (2026); DOI: 10.1103/x82g-cq7n*
 
 If you use this code please cite the second manuscript, especially if you use the export to SurfaceEvolver for the bubbly vertex model. 
 
